@@ -199,7 +199,7 @@ class MainActivity : ComponentActivity() {
             arrayOf(Manifest.permission.CAMERA,Manifest.permission.RECORD_AUDIO)
     }
 }
-// ViewModel para a lógica da câmera e a comunicação com o servidor
+
 // ViewModel para a lógica da câmera e a comunicação com o servidor
 class MainViewModel(private val activity: Activity) : ViewModel() {
     private val _bitmaps = MutableStateFlow<List<Bitmap>>(emptyList())
